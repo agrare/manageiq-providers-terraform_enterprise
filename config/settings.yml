@@ -1,0 +1,18 @@
+:ems:
+  :ems_terraform_enterprise: {}
+:ems_refresh:
+  :terraform_enterprise:
+    :refresh_interval: 15.minutes
+:http_proxy:
+  :terraform_enterprise:
+    :host:
+    :password:
+    :port:
+    :user:
+:log:
+  :level_terraform_enterprise: info
+:workers:
+  :worker_base:
+    :queue_worker_base:
+      :ems_refresh_worker:
+        :ems_refresh_worker_terraform_enterprise: {}
